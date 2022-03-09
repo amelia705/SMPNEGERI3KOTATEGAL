@@ -32,19 +32,19 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:scaleType="fitXY"
-                            android:src="@drawable/kemah1"/>
+                            android:src="@drawable/hdrgaleri2"/>
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:scaleType="fitXY"
-                            android:src="@drawable/kemah3"/>
+                            android:src="@drawable/hdrgaleri1"/>
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:scaleType="fitXY"
-                            android:src="@drawable/ldk"/>
+                            android:src="@drawable/hdrgaleri3"/>
                     </ViewFlipper>
                 </RelativeLayout>
 

@@ -50,8 +50,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void fasilitas(View view) {
-        Intent intent = new Intent(com.example.smpnegeri3kotategal.MainActivity.this, FasilitasActivity
-                .class);
+        Intent intent = new Intent(com.example.smpnegeri3kotategal.MainActivity.this, FasilitasActivity.class);
         startActivity(intent);
     }
 
