@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPNEGERI3KOTATEGAL">
         <activity
+            android:name=".Buku9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Buku8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Buku7Activity"
+            android:exported="false" />
+        <activity
             android:name=".GaleriActivity"
             android:exported="false" />
         <activity
@@ -29,6 +38,9 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

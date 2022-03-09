@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void galeri(View view) {
+    public void galery(View view) {
         Intent intent = new Intent(com.example.smpnegeri3kotategal.MainActivity.this, GaleriActivity.class);
         startActivity(intent);
     }
