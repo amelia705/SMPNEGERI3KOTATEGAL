@@ -14,40 +14,51 @@ import com.smarteist.autoimageslider.SliderAnimations;
 import com.smarteist.autoimageslider.SliderView;
 
 public class GaleriActivity extends AppCompatActivity {
-    ViewFlipper viewFlipper;
-    Animation fadein, fadeout;
+    SliderView sliderView;
+    int[] images = {R.drawable.hdrgaleri1,
+            R.drawable.hdrgaleri2,
+            R.drawable.hdrgaleri3,
+            R.drawable.hdrgaleri1,
+            R.drawable.hdrgaleri2};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_galeri);
 
-        viewFlipper = (ViewFlipper) findViewById(R.id.viewFlipper);
+        sliderView = findViewById(R.id.image_slider);
 
-        fadein = AnimationUtils.loadAnimation(this,R.anim.fade_in);
-        fadeout = AnimationUtils.loadAnimation(this,R.anim.fade_out);
+        SliderAdapter sliderAdapter = new SliderAdapter(images);
 
-        viewFlipper.setInAnimation(fadein);
-        viewFlipper.setOutAnimation(fadeout);
-
-        viewFlipper.setAutoStart(true);
-        viewFlipper.setFlipInterval(5000);
-        viewFlipper.startFlipping();
-
+        sliderView.setSliderAdapter(sliderAdapter);
+        sliderView.setIndicatorAnimation(IndicatorAnimationType.WORM);
+        sliderView.setSliderTransformAnimation(SliderAnimations.DEPTHTRANSFORMATION);
+        sliderView.startAutoCycle();
     }
+
 
     public void kemah(View view) {
+        Intent intent = new Intent(com.example.smpnegeri3kotategal.GaleriActivity.this, KemahActivity.class);
+        startActivity(intent);
     }
 
-    public void pmr(View view) {
+    public void harikartini(View view) {
+        Intent intent = new Intent(com.example.smpnegeri3kotategal.GaleriActivity.this, HariKartiniActivity.class);
+        startActivity(intent);
     }
 
     public void drumband(View view) {
+        Intent intent = new Intent(com.example.smpnegeri3kotategal.GaleriActivity.this, DrumBandActivity.class);
+        startActivity(intent);
     }
 
     public void karnaval(View view) {
+        Intent intent = new Intent(com.example.smpnegeri3kotategal.GaleriActivity.this, KarnavalActivity.class);
+        startActivity(intent);
     }
 
     public void studytour(View view) {
+        Intent intent = new Intent(com.example.smpnegeri3kotategal.GaleriActivity.this, StudyTourActivity.class);
+        startActivity(intent);
     }
 }

@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPNEGERI3KOTATEGAL">
         <activity
+            android:name=".StudyTourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KarnavalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrumBandActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HariKartiniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KemahActivity"
+            android:exported="false" />
+        <activity
             android:name=".Buku9Activity"
             android:exported="false" />
         <activity
@@ -56,7 +71,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".SplashScreenActivity"
             android:exported="true">

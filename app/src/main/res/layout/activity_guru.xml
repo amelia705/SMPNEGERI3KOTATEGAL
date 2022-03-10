@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GuruActivity"
-    android:background="@drawable/bg3"
+    android:background="@drawable/bg2"
     android:gravity="center">
 
     <ScrollView
