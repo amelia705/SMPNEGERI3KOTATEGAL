@@ -109,6 +109,14 @@
                             android:textColor="#000"
                             android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#000"
+                            android:text="Masuknya senia bela diri karate ke Indonesia pertama kali dipelopori oleh Mahasiswa Indonesia yang telah menyelesaikan studinya di Jepang. Dan salah satu beberapa dari mereka yang bernama Baud Adikusumo, Muchtar dan Karyanto kemudian mendirikan dojo yang memperkenalkan salah satu aliran karate yaitu Shotokan."/>
+
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </GridLayout>

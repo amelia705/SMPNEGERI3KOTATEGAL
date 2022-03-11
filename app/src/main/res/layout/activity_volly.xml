@@ -62,10 +62,10 @@
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="12dp"
-                    android:layout_marginBottom="12dp"
+                    android:layout_marginBottom="15dp"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
@@ -107,7 +107,15 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
-                            android:text="hghgBola voli adalah permainan olahraga yang dimainkan oleh dua grup berlawanan. Masing-masing grup memiliki enam orang pemain. Terdapat pula variasi permainan bola voli pantai yang masing-masing timnya hanya memiliki dua orang pemain. Olahraga ini dinaungi FIVB sebagai induk organisasi internasional."/>
+                            android:text="Bola voli adalah permainan olahraga yang dimainkan oleh dua grup berlawanan. Masing-masing grup memiliki enam orang pemain. Terdapat pula variasi permainan bola voli pantai yang masing-masing timnya hanya memiliki dua orang pemain. Olahraga ini dinaungi FIVB sebagai induk organisasi internasional."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#000"
+                            android:text="Di Indonesia permainan bola voli masuk pertama kali pada saat penjajahan Belanda tahun 1928. Saat itu olahraga bola voli hanya dimainkan oleh para bangsawan dan orang Belanda. Bola voli kemudian diperkenalkan ke masyarakat Indonesia pada masa guru-guru pendidikan jasmani berasal dari Belanda."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

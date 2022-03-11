@@ -109,6 +109,14 @@
                             android:textColor="#000"
                             android:text="Pramuka adalah singkatan dari Praja Muda Karana yang memiliki arti “Rakyat muda yang suka berkarya”. Di Indonesia gerakan ini diperkenalkan secara resmi pada 14 Agustus 1961 oleh Presiden Pertama Indonesia, Ir Soekarno"/>
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#000"
+                            android:text="Gerakan Pramuka atau Kepanduan di Indonesia telah dimulai sejak tahun 1923 yang ditandai dengan didirikannya (Belanda)Nationale Padvinderij Organisatie (NPO) di Bandung. Sedangkan pada tahun yang sama, di Jakarta didirikan (Belanda)Jong Indonesische Padvinderij Organisatie (JIPO)."/>
+
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
