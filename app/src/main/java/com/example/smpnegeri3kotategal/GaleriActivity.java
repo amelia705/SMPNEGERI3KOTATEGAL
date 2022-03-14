@@ -15,9 +15,9 @@ import com.smarteist.autoimageslider.SliderView;
 
 public class GaleriActivity extends AppCompatActivity {
     SliderView sliderView;
-    int[] images = {R.drawable.hdrgaleri1,
-            R.drawable.hdrgaleri2,
-            R.drawable.hdrgaleri3,
+    int[] images = {R.drawable.hdrgaleri2,
+            R.drawable.hdrgaleri5,
+            R.drawable.hdrgaleri6,
             R.drawable.hdrgaleri1,
             R.drawable.hdrgaleri2};
 

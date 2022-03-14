@@ -94,7 +94,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/mtk1kls7"
+                                        android:src="@drawable/mtk1kls9"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -144,7 +144,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/mtk2kls7"
+                                        android:src="@drawable/mtk2kls8"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -202,7 +202,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/ipa1kls7"
+                                        android:src="@drawable/ipa1kls9"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -252,7 +252,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/ipa2kls7"
+                                        android:src="@drawable/ipa2kls9"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -310,7 +310,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/prakarya1kls7"
+                                        android:src="@drawable/prakarya1kls9"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -360,7 +360,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/prakarya2kls7"
+                                        android:src="@drawable/prakarya2kls9"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -419,7 +419,7 @@
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
-                                        android:src="@drawable/bhsindkls7" />
+                                        android:src="@drawable/indokls9" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -471,7 +471,7 @@
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
-                                        android:src="@drawable/bhsingkls7" />
+                                        android:src="@drawable/ingkls9" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -530,7 +530,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/pknkls7"
+                                        android:src="@drawable/pknkls9"
                                         android:layout_marginBottom="20dp"/>
 
                                     <TextView
@@ -573,7 +573,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/paikls7"
+                                        android:src="@drawable/paikls9"
                                         android:layout_marginBottom="20dp"/>
 
                                     <TextView
@@ -624,7 +624,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/penjaskls7"
+                                        android:src="@drawable/penjaskls9"
                                         android:layout_marginBottom="20dp"/>
 
                                     <TextView
@@ -667,7 +667,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/snbdykls7"
+                                        android:src="@drawable/senibudayakls9"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
