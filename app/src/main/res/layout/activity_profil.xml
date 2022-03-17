@@ -267,11 +267,10 @@
                         android:layout_marginTop="75dp"
                         android:orientation="vertical">
 
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:adjustViewBounds="true"
-                            android:src="@drawable/visi" />
+                       <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           app:src="@drawable/visi"/>
 
                     </LinearLayout>
 
@@ -423,16 +422,15 @@
                         android:textStyle="bold" />
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="75dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="80dp"
                         android:orientation="vertical">
 
-                        <ImageView
+                        <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:adjustViewBounds="true"
-                            android:src="@drawable/struktur1" />
+                            app:src="@drawable/struktur1"/>
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>

@@ -83,7 +83,7 @@
                                         android:layout_width="300dp"
                                         android:layout_height="200dp"
                                         android:layout_marginLeft="12dp"
-                                        android:layout_marginTop="60dp"
+                                        android:layout_marginTop="80dp"
                                         android:src="@drawable/hdr2"/>
 
                                 </LinearLayout>
@@ -100,7 +100,7 @@
                                     <ImageView
                                         android:layout_width="300dp"
                                         android:layout_height="200dp"
-                                        android:layout_marginTop="60dp"
+                                        android:layout_marginTop="80dp"
                                         android:layout_marginRight="12dp"
                                         android:src="@drawable/halamandepan"/>
 
@@ -181,7 +181,7 @@
                                         android:layout_width="300dp"
                                         android:layout_height="200dp"
                                         android:layout_marginLeft="12dp"
-                                        android:layout_marginTop="60dp"
+                                        android:layout_marginTop="80dp"
                                         android:src="@drawable/labkomsmp3"/>
 
                                 </LinearLayout>
@@ -198,7 +198,7 @@
                                     <ImageView
                                         android:layout_width="300dp"
                                         android:layout_height="200dp"
-                                        android:layout_marginTop="60dp"
+                                        android:layout_marginTop="80dp"
                                         android:layout_marginRight="12dp"
                                         android:src="@drawable/depanlab"/>
 
@@ -275,7 +275,7 @@
                                         android:layout_width="300dp"
                                         android:layout_height="200dp"
                                         android:layout_marginLeft="12dp"
-                                        android:layout_marginTop="60dp"
+                                        android:layout_marginTop="80dp"
                                         android:src="@drawable/lapangan"/>
 
                                 </LinearLayout>
@@ -354,7 +354,7 @@
                                         android:layout_width="300dp"
                                         android:layout_height="200dp"
                                         android:layout_marginLeft="12dp"
-                                        android:layout_marginTop="60dp"
+                                        android:layout_marginTop="80dp"
                                         android:src="@drawable/taman"/>
 
                                 </LinearLayout>
@@ -371,7 +371,7 @@
                                     <ImageView
                                         android:layout_width="300dp"
                                         android:layout_height="200dp"
-                                        android:layout_marginTop="60dp"
+                                        android:layout_marginTop="80dp"
                                         android:layout_marginRight="12dp"
                                         android:src="@drawable/taman2"/>
 
