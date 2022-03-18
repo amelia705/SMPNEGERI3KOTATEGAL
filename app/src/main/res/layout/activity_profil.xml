@@ -431,6 +431,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             app:src="@drawable/struktur1"/>
+
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -500,9 +501,31 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:text="GMAIL : smp3kotategal@gmail.com"
+                            android:textColor="#000"
+                            android:autoLink="email"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
                             android:text="WEBSITE : http://www.smpn3tegal.sch.id"
                             android:textColor="#000"
                             android:autoLink="web"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:text="FACEBOOK : https://www.facebook.com/smp3tegalyess"
+                            android:textColor="#000"
+                            android:autoLink="all"
                             android:textSize="15sp"
                             android:textStyle="bold" />
 
@@ -548,11 +571,10 @@
                         android:layout_marginTop="75dp"
                         android:orientation="vertical">
 
-                        <ImageView
+                        <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:adjustViewBounds="true"
-                            android:src="@drawable/jumlahsiswa" />
+                            app:src="@drawable/jumlahsiswa"/>
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>

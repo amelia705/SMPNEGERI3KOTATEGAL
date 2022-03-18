@@ -380,6 +380,24 @@
                                     android:layout_width="7dp"
                                     android:layout_height="match_parent"/>
 
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="200dp"
+                                        android:layout_marginTop="80dp"
+                                        android:layout_marginRight="12dp"
+                                        android:src="@drawable/taman3"/>
+
+                                </LinearLayout>
+                                <RelativeLayout
+                                    android:layout_width="7dp"
+                                    android:layout_height="match_parent"/>
+
                             </LinearLayout>
 
                         </HorizontalScrollView>
