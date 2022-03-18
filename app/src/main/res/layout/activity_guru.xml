@@ -92,7 +92,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/paadji" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -143,7 +143,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/padhomiri" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -193,7 +193,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/buary" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -206,6 +206,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="40dp"
+                        android:layout_marginRight="5dp"
                         android:layout_marginTop="40dp"
                         android:gravity="center"
                         android:text="Ariyani Trisnaningsih, S.Pd"
@@ -243,7 +244,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/bubindari" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -293,7 +294,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks"/>
+                    android:src="@drawable/bugita"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -343,7 +344,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/bukarisah" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -393,7 +394,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/bukurniadiana" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -406,6 +407,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="40dp"
+                        android:layout_marginRight="5dp"
                         android:layout_marginTop="40dp"
                         android:gravity="center"
                         android:text="Kurniadi Ana Susanti, S.pd"
@@ -445,7 +447,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/bumita" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -547,7 +549,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/pasamsudin" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -598,7 +600,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/pamulyadi" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -649,7 +651,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/bumunarti" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -853,7 +855,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/busitimae" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -904,7 +906,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/busulanjari" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -955,7 +957,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/pasrisuwarso" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1006,7 +1008,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/pasunarto" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1057,7 +1059,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/pasuprapta" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1210,7 +1212,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/buuripah" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1261,7 +1263,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/bufitri" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1312,7 +1314,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/buelli" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1363,7 +1365,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/bumuniroh" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1414,7 +1416,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/pacholik" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1465,7 +1467,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/buenitu" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1516,7 +1518,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ftks" />
+                    android:src="@drawable/buumi" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
