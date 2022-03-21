@@ -20,12 +20,12 @@
             android:id="@+id/collapsing_tool">
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="423dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/lapsmp3"
-                android:scaleType="fitXY"
                 android:layout_marginBottom="15dp"
-                app:layout_collapseMode="parallax"/>
+                android:scaleType="fitXY"
+                android:src="@drawable/juara"
+                app:layout_collapseMode="parallax" />
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolar"
                 android:layout_width="match_parent"
@@ -75,7 +75,7 @@
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:src="@drawable/basketballplayer"/>
+                        android:src="@drawable/win"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -85,7 +85,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="EKSKUL BASKET"/>
+                        android:text="BEBERAPA PRESTASI"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -101,15 +101,86 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="5dp"
-                            android:textColor="#000"
-                            android:text="Bola basket adalah olahraga bola berkelompok yang terdiri atas dua tim beranggotakan masing-masing lima orang yang saling bertanding mencetak poin dengan memasukkan bola ke dalam keranjang lawan. Bola basket dapat di lapangan terbuka, walaupun pertandingan profesional pada umumnya dilakukan di ruang tertutup."/>
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                        android:layout_width="350dp"
+                                        android:layout_height="250dp"
+                                        app:src="@drawable/popda1"/>
+
+                                </LinearLayout>
+                                <RelativeLayout
+                                    android:layout_width="10dp"
+                                    android:layout_height="match_parent"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+                                    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                        android:layout_width="350dp"
+                                        android:layout_height="250dp"
+                                        app:src="@drawable/popda"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </HorizontalScrollView>
 
                     </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                    android:layout_width="350dp"
+                                    android:layout_height="250dp"
+                                    app:src="@drawable/pencaksilat"/>
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent"/>
+
+                        </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </GridLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>

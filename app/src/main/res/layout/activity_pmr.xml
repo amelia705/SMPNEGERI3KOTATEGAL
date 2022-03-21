@@ -110,6 +110,96 @@
                             android:text="Palang Merah Remaja (disingkat PMR) adalah wadah pembinaan dan pengembangan anggota remaja PMI, yang selanjutnya disebut PMR.Terdapat di PMI kota atau kabupaten di seluruh Indonesia, dengan anggota lebih dari 5 juta orang, anggota PMR merupakan salah satu kekuatan PMI dalam melaksanakan kegiatan-kegiatan kemanusiaan dibidang kesehatan dan siaga bencana, mempromosikan prinsip-prinsip dasar gerakan palang merah dan bulan sabit merah internasional, serta mengembangkan kapasitas organisasi PMI."/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"/>
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                    android:layout_width="350dp"
+                                    android:layout_height="250dp"
+                                    app:src="@drawable/pmr2"/>
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                    android:layout_width="350dp"
+                                    android:layout_height="250dp"
+                                    app:src="@drawable/pmr1"/>
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                    android:layout_width="350dp"
+                                    android:layout_height="250dp"
+                                    app:src="@drawable/pmr3"/>
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                    android:layout_width="350dp"
+                                    android:layout_height="250dp"
+                                    app:src="@drawable/pmr4"/>
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent"/>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </androidx.cardview.widget.CardView>
+
             </GridLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
