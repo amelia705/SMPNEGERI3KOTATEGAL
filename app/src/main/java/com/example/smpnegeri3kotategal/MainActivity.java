@@ -63,5 +63,19 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(com.example.smpnegeri3kotategal.MainActivity.this, GaleriActivity.class);
         startActivity(intent);
     }
+
+    public void facebook(View view) {
+        goToUrl("https://www.facebook.com/smp3tegalyess");
+    }
+
+    public void youtube(View view) {
+        goToUrl("https://youtube.com/channel/UCvxnEquTYoySco_8qQZ5aQA");
+    }
+    private void goToUrl (String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
 }
 

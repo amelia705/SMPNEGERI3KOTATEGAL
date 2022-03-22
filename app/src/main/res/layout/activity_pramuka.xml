@@ -66,6 +66,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
+                    android:backgroundTint="#D2B48C"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
@@ -93,6 +94,7 @@
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="42dp"
                         android:textSize="18sp"
+                        android:textColor="#CD5C5C"
                         android:text="SMP NEGERI 3 KOTA TEGAL"/>
 
                     <LinearLayout
@@ -107,6 +109,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
+                            android:textSize="20dp"
                             android:text="Pramuka adalah singkatan dari Praja Muda Karana yang memiliki arti “Rakyat muda yang suka berkarya”. Di Indonesia gerakan ini diperkenalkan secara resmi pada 14 Agustus 1961 oleh Presiden Pertama Indonesia, Ir Soekarno"/>
 
                         <TextView
@@ -115,6 +118,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
+                            android:textSize="20dp"
                             android:text="Gerakan Pramuka atau Kepanduan di Indonesia telah dimulai sejak tahun 1923 yang ditandai dengan didirikannya (Belanda)Nationale Padvinderij Organisatie (NPO) di Bandung. Sedangkan pada tahun yang sama, di Jakarta didirikan (Belanda)Jong Indonesische Padvinderij Organisatie (JIPO)."/>
 
 

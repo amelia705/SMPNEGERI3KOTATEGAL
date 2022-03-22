@@ -68,6 +68,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
+                    android:backgroundTint="#ADD8E6"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
@@ -93,9 +94,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="80dp"
-                        android:layout_marginTop="60dp"
+                        android:layout_marginTop="50dp"
+                        android:textColor="@color/black"
                         android:text="Jl. Yos Sudarso, Tegalsari, Kec. Tegal Barat, Kota Tegal Prov. Jawa Tengah"
-                        android:textSize="10sp" />
+                        android:textSize="15sp" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -237,6 +239,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
+                    android:backgroundTint="#ADD8E6"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
@@ -285,6 +288,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
+                    android:backgroundTint="#ADD8E6"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
@@ -398,6 +402,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
+                    android:backgroundTint="#ADD8E6"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
@@ -445,6 +450,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
+                    android:backgroundTint="#F0F8FF"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
@@ -491,7 +497,7 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="EMAIL : smp3tegal_yess@yahoo.com"
-                            android:textColor="#000"
+                            android:textColor="@color/black"
                             android:autoLink="email"
                             android:textSize="15sp"
                             android:textStyle="bold" />
@@ -502,7 +508,7 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="GMAIL : smp3kotategal@gmail.com"
-                            android:textColor="#000"
+                            android:textColor="@color/black"
                             android:autoLink="email"
                             android:textSize="15sp"
                             android:textStyle="bold" />
@@ -513,7 +519,7 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="WEBSITE : http://www.smpn3tegal.sch.id"
-                            android:textColor="#000"
+                            android:textColor="@color/black"
                             android:autoLink="web"
                             android:textSize="15sp"
                             android:textStyle="bold" />
@@ -524,7 +530,7 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="FACEBOOK : https://www.facebook.com/smp3tegalyess"
-                            android:textColor="#000"
+                            android:textColor="@color/black"
                             android:autoLink="all"
                             android:textSize="15sp"
                             android:textStyle="bold" />
@@ -542,6 +548,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
+                    android:backgroundTint="#ADD8E6"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 

@@ -20,12 +20,12 @@
             android:id="@+id/collapsing_tool">
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="435dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/lapsmp3"
-                android:scaleType="fitXY"
                 android:layout_marginBottom="15dp"
-                app:layout_collapseMode="parallax"/>
+                android:scaleType="fitXY"
+                android:src="@drawable/bnrpmr1"
+                app:layout_collapseMode="parallax" />
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolar"
                 android:layout_width="match_parent"
@@ -66,6 +66,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
+                    android:backgroundTint="#E6E6FA"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
@@ -93,6 +94,7 @@
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="42dp"
                         android:textSize="18sp"
+                        android:textColor="#CD5C5C"
                         android:text="SMP NEGERI 3 KOTA TEGAL"/>
 
                     <LinearLayout
@@ -107,6 +109,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
+                            android:textSize="20dp"
                             android:text="Palang Merah Remaja (disingkat PMR) adalah wadah pembinaan dan pengembangan anggota remaja PMI, yang selanjutnya disebut PMR.Terdapat di PMI kota atau kabupaten di seluruh Indonesia, dengan anggota lebih dari 5 juta orang, anggota PMR merupakan salah satu kekuatan PMI dalam melaksanakan kegiatan-kegiatan kemanusiaan dibidang kesehatan dan siaga bencana, mempromosikan prinsip-prinsip dasar gerakan palang merah dan bulan sabit merah internasional, serta mengembangkan kapasitas organisasi PMI."/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

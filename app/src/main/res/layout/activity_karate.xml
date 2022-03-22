@@ -66,6 +66,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
+                    android:backgroundTint="#DCDCDC"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
@@ -93,6 +94,7 @@
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="42dp"
                         android:textSize="18sp"
+                        android:textColor="#CD5C5C"
                         android:text="SMP NEGERI 3 KOTA TEGAL"/>
 
                     <LinearLayout
@@ -107,6 +109,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
+                            android:textSize="20dp"
                             android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
 
                         <TextView
@@ -115,6 +118,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
+                            android:textSize="20dp"
                             android:text="Masuknya senia bela diri karate ke Indonesia pertama kali dipelopori oleh Mahasiswa Indonesia yang telah menyelesaikan studinya di Jepang. Dan salah satu beberapa dari mereka yang bernama Baud Adikusumo, Muchtar dan Karyanto kemudian mendirikan dojo yang memperkenalkan salah satu aliran karate yaitu Shotokan."/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

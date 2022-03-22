@@ -22,7 +22,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/lapsmp3"
+                android:src="@drawable/voli"
                 android:scaleType="fitXY"
                 android:layout_marginBottom="15dp"
                 app:layout_collapseMode="parallax"/>
@@ -66,6 +66,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="15dp"
+                    android:backgroundTint="#F4A460"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
@@ -93,6 +94,7 @@
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="42dp"
                         android:textSize="18sp"
+                        android:textColor="#B22222"
                         android:text="SMP NEGERI 3 KOTA TEGAL"/>
 
                     <LinearLayout
@@ -107,6 +109,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
+                            android:textSize="20dp"
                             android:text="Bola voli adalah permainan olahraga yang dimainkan oleh dua grup berlawanan. Masing-masing grup memiliki enam orang pemain. Terdapat pula variasi permainan bola voli pantai yang masing-masing timnya hanya memiliki dua orang pemain. Olahraga ini dinaungi FIVB sebagai induk organisasi internasional."/>
 
                         <TextView
@@ -115,6 +118,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
+                            android:textSize="20dp"
                             android:text="Di Indonesia permainan bola voli masuk pertama kali pada saat penjajahan Belanda tahun 1928. Saat itu olahraga bola voli hanya dimainkan oleh para bangsawan dan orang Belanda. Bola voli kemudian diperkenalkan ke masyarakat Indonesia pada masa guru-guru pendidikan jasmani berasal dari Belanda."/>
 
                     </LinearLayout>

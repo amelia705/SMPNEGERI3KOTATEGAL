@@ -66,6 +66,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
+                    android:backgroundTint="#F0FFF0"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="8dp">
 
@@ -93,6 +94,7 @@
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="42dp"
                         android:textSize="18sp"
+                        android:textColor="#CD5C5C"
                         android:text="SMP NEGERI 3 KOTA TEGAL"/>
 
                     <LinearLayout
@@ -107,6 +109,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
+                            android:textSize="20dp"
                             android:text="Karawitan adalah kesenian musik tradisional Jawa yang mengacu pada permainan musik Gamelan. Kesenian Karawitan ini dikemas dengan alunan instrument dan vokal yang indah sehingga enak untuk didengar dan dinikmati."/>
 
                     </LinearLayout>
