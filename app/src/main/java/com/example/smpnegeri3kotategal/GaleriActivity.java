@@ -61,4 +61,9 @@ public class GaleriActivity extends AppCompatActivity {
         Intent intent = new Intent(com.example.smpnegeri3kotategal.GaleriActivity.this, StudyTourActivity.class);
         startActivity(intent);
     }
+
+    public void lombapbb(View view) {
+        Intent intent = new Intent(com.example.smpnegeri3kotategal.GaleriActivity.this, LombaPbbActivity.class);
+        startActivity(intent);
+    }
 }

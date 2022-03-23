@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg8"
-    tools:context=".StudyTourActivity">
+    android:background="@drawable/bg10"
+    tools:context=".LombaPbbActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,7 +32,24 @@
                         android:layout_width="400dp"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/studytour3" />
+                        android:src="@drawable/tublanal2012" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/tublanal2" />
 
                 </LinearLayout>
 
@@ -50,7 +67,7 @@
                         android:layout_width="400dp"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/studytour2" />
+                        android:src="@drawable/tublanal1" />
                 </LinearLayout>
 
                 <RelativeLayout
@@ -81,7 +98,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="5dp"
-                    android:text="ALBUM KEGIATAN STUDYTOUR"
+                    android:text="ALBUM LOMBA PBB"
                     android:textColor="#000"
                     android:textSize="10sp"
                     android:textStyle="bold" />
@@ -93,7 +110,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="5dp"
-                    android:text="KEGIATAN STUDYTOUR SMP NEGERI 3 KOTA TEGAL."
+                    android:text="LOMBA PBB SMP NEGERI 3 KOTA TEGAL TAHUN 2012."
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="10sp" />
