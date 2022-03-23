@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg4"
+    android:background="@drawable/bg1"
     tools:context=".StudyTourActivity">
 
     <LinearLayout
@@ -30,15 +30,15 @@
 
                     <ImageView
                         android:layout_width="400dp"
-                        android:adjustViewBounds="true"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/studytour3"/>
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/studytour3" />
 
                 </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="7dp"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="match_parent" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -48,14 +48,14 @@
 
                     <ImageView
                         android:layout_width="400dp"
-                        android:adjustViewBounds="true"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/studytour2"/>
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/studytour2" />
                 </LinearLayout>
 
                 <RelativeLayout
                     android:layout_width="7dp"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="match_parent" />
 
             </LinearLayout>
         </HorizontalScrollView>
@@ -70,32 +70,33 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="12dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginTop="5dp">
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#DCDCDC"
+                android:layout_marginRight="12dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="ALBUM KEGIATAN STUDYTOUR"
                     android:textColor="#000"
                     android:textSize="10sp"
-                    android:textStyle="bold"
-                    android:text="ALBUM KEGIATAN STUDYTOUR"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:textAlignment="center"
                     android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    android:text="KEGIATAN STUDYTOUR SMP NEGERI 3 KOTA TEGAL."
+                    android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="10sp"
-                    android:text="KEGIATAN STUDYTOUR SMP NEGERI 3 KOTA TEGAL."/>
+                    android:textSize="10sp" />
 
             </androidx.cardview.widget.CardView>
         </LinearLayout>
