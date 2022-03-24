@@ -97,7 +97,7 @@
                         android:layout_marginTop="50dp"
                         android:textColor="@color/black"
                         android:text="Jl. Yos Sudarso, Tegalsari, Kec. Tegal Barat, Kota Tegal Prov. Jawa Tengah"
-                        android:textSize="15sp" />
+                        android:textSize="10sp" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"

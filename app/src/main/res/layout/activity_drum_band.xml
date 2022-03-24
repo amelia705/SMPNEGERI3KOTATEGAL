@@ -32,6 +32,42 @@
                         android:layout_width="400dp"
                         android:adjustViewBounds="true"
                         android:layout_height="wrap_content"
+                        android:src="@drawable/drumband4"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"/>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="400dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/drumband3"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="7dp"
+                    android:layout_height="match_parent"/>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="400dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="wrap_content"
                         android:src="@drawable/drumband1"/>
 
                 </LinearLayout>
