@@ -64,12 +64,25 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void raport(View view) {
+        goToUrl("https://smpn3tegal.sch.id/raport3/");
+    }
+
+    public void edukasi(View view) {
+        goToUrl("https://m-edukasi.kemdikbud.go.id/medukasi/");
+    }
+
     public void facebook(View view) {
+
         goToUrl("https://www.facebook.com/smp3tegalyess");
     }
 
     public void youtube(View view) {
         goToUrl("https://youtube.com/channel/UCvxnEquTYoySco_8qQZ5aQA");
+    }
+
+    public void nisn(View view) {
+        goToUrl("https://nisn.data.kemdikbud.go.id/");
     }
     private void goToUrl (String url) {
         Uri uriUrl = Uri.parse(url);
