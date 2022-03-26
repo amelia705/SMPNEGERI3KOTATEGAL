@@ -65,11 +65,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void raport(View view) {
-        goToUrl("https://smpn3tegal.sch.id/raport3/");
+        Intent intent = new Intent(com.example.smpnegeri3kotategal.MainActivity.this, RaportActivity.class);
+        startActivity(intent);
     }
 
     public void edukasi(View view) {
-        goToUrl("https://m-edukasi.kemdikbud.go.id/medukasi/");
+        Intent intent = new Intent(com.example.smpnegeri3kotategal.MainActivity.this, EdukasiActivity.class);
+        startActivity(intent);
     }
 
     public void facebook(View view) {
@@ -84,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
     public void nisn(View view) {
         goToUrl("https://nisn.data.kemdikbud.go.id/");
     }
+
     private void goToUrl (String url) {
         Uri uriUrl = Uri.parse(url);
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
