@@ -99,7 +99,7 @@
                 </LinearLayout>
                 <!--                penutup menu 1-->
 
-                menu 2 -->
+<!--                menu 2 -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="170dp"
@@ -400,14 +400,14 @@
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/medukasi" />
+                                android:src="@drawable/logonisn" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:gravity="center"
-                                android:text="M-EDUKASI"
+                                android:text="NISN"
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold" />
@@ -446,12 +446,6 @@
                     android:layout_margin="20dp"
                     android:src="@drawable/youtube"/>
 
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:onClick="nisn"
-                    android:layout_margin="20dp"
-                    android:src="@drawable/logonisn"/>
 
             </LinearLayout>
 

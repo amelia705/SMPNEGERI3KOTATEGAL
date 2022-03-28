@@ -83,9 +83,6 @@ public class MainActivity extends AppCompatActivity {
         goToUrl("https://youtube.com/channel/UCvxnEquTYoySco_8qQZ5aQA");
     }
 
-    public void nisn(View view) {
-        goToUrl("https://nisn.data.kemdikbud.go.id/");
-    }
 
     private void goToUrl (String url) {
         Uri uriUrl = Uri.parse(url);
