@@ -79,7 +79,7 @@
                                     android:orientation="vertical">
 
                                     <ImageView
-                                        android:layout_width="300dp"
+                                        android:layout_width="320dp"
                                         android:layout_height="200dp"
                                         android:layout_marginLeft="12dp"
                                         android:layout_marginTop="80dp"
@@ -179,7 +179,7 @@
                                     android:orientation="vertical">
 
                                     <ImageView
-                                        android:layout_width="300dp"
+                                        android:layout_width="320dp"
                                         android:layout_height="200dp"
                                         android:layout_marginLeft="12dp"
                                         android:layout_marginTop="80dp"
@@ -273,7 +273,7 @@
                                     android:orientation="vertical">
 
                                     <ImageView
-                                        android:layout_width="380dp"
+                                        android:layout_width="350dp"
                                         android:layout_height="200dp"
                                         android:layout_marginTop="80dp"
                                         android:layout_marginRight="12dp"
@@ -353,7 +353,7 @@
                                     android:orientation="vertical">
 
                                     <ImageView
-                                        android:layout_width="300dp"
+                                        android:layout_width="320dp"
                                         android:layout_height="200dp"
                                         android:layout_marginLeft="12dp"
                                         android:layout_marginTop="80dp"
@@ -465,7 +465,7 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="380dp"
+                                    android:layout_width="350dp"
                                     android:layout_height="200dp"
                                     android:layout_marginTop="80dp"
                                     android:layout_marginRight="12dp"
@@ -490,6 +490,105 @@
 
                     </LinearLayout>
 
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#D2B48C"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/pojokbaca"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="POJOK BACA"/>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="320dp"
+                                        android:layout_height="200dp"
+                                        android:layout_marginLeft="12dp"
+                                        android:layout_marginTop="80dp"
+                                        android:src="@drawable/tangga"/>
+
+                                </LinearLayout>
+                                <RelativeLayout
+                                    android:layout_width="10dp"
+                                    android:layout_height="match_parent"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="200dp"
+                                        android:layout_marginTop="80dp"
+                                        android:layout_marginRight="12dp"
+                                        android:src="@drawable/pojokbaca"/>
+
+                                </LinearLayout>
+                                <RelativeLayout
+                                    android:layout_width="7dp"
+                                    android:layout_height="match_parent"/>
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="5dp"
+                            android:textColor="#000"
+                            android:text="Tangga menjadi tempat lalu lalang siswa menuju kelas, serta pojok baca biasanya menjadi tempat siswa untuk membaca buku atau santai ketika istirahat."/>
+
+                    </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
             </GridLayout>
