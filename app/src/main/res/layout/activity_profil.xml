@@ -247,6 +247,268 @@
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/splashscreen"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="15dp"
+                        android:text="PROGRAM KERJA"
+                        android:textColor="#0000FF"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="50dp"
+                        android:textColor="@color/black"
+                        android:text="Program unggulan"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="95dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="1. Menjadi Sekolah Standar Nasional (SSN) "
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="2. Mengembangkan Sikap dan Kompetensi Keagamaan"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="3. Mengembangkan Potensi Siswa Berbasis Multiple Intelligance"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="4. Mengembangkan Budaya daerah"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="5. Mengembangkan Kemampuan bahasa dan Teknologi Informasi"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="6. Meningkatkan Daya serap Ke Dunia Kerja"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#ADD8E6"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/splashscreen"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Program Pengembangan Sarana Prioritas"
+                        android:textColor="#0000FF"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="95dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="1. Membangun 5 Ruang kelas Belajar dengan konstruksi bangunan 3 tingkat"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="2. Membangun 1 ruang Belajar di lantai 2 gedung lama "
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="3. Membangun Ruang Lab Praktek 3 buah"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="4. Pembangunan Kantin Siswa"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="5. Perbaikan dan Pengecetan Lapangan Olah Raga"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="6. Pengembangan Jaringan Infrastruktur LAN (Intranet dan Internet)"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="7. Pengembangan Sistem Informasi Sekolah (SIS)"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="8. Melengkapi Sarana dan Prasarana Perpustakaan dan Lab Komputer"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="9. Renovasi Aula"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="10. Renovasi Tampilan Depan Skolah/Gerbang Sekolah"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="11. Melengkapi alat praktek"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:backgroundTint="#ADD8E6"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
                         android:layout_marginTop="12dp"
                         android:layout_marginRight="12dp"
                         android:src="@drawable/splashscreen" />
