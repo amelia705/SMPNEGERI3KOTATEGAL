@@ -79,11 +79,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void infosekolah(View view) {
-        Intent intent = new Intent(com.example.smpnegeri3kotategal.MainActivity.this, InfoSekolahActivity.class);
-        startActivity(intent);
-    }
-
     public void youtube(View view) {
         goToUrl("https://youtube.com/channel/UCvxnEquTYoySco_8qQZ5aQA/");
     }

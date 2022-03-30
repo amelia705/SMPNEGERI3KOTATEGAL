@@ -12,9 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPNEGERI3KOTATEGAL">
         <activity
-            android:name=".InfoSekolahActivity"
-            android:exported="false" />
-        <activity
             android:name=".FacebookActivity"
             android:exported="false" />
         <activity
