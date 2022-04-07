@@ -44,6 +44,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#E6E6FA"
             android:padding="15dp">
 
             <GridLayout
@@ -133,6 +134,7 @@
 
                     <HorizontalScrollView
                         android:layout_width="match_parent"
+                        android:background="#E6E6FA"
                         android:layout_height="wrap_content">
 
                         <LinearLayout
@@ -149,6 +151,7 @@
                                 <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                     android:layout_width="350dp"
                                     android:layout_height="250dp"
+                                    android:background="#E6E6FA"
                                     app:src="@drawable/pmr2"/>
 
                             </LinearLayout>
@@ -165,6 +168,7 @@
                                 <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                     android:layout_width="350dp"
                                     android:layout_height="250dp"
+                                    android:background="#E6E6FA"
                                     app:src="@drawable/pmr1"/>
                             </LinearLayout>
                             <RelativeLayout

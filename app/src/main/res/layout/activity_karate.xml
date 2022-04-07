@@ -44,6 +44,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#DCDCDC"
             android:padding="15dp">
 
             <GridLayout
@@ -142,6 +143,7 @@
 
                     <HorizontalScrollView
                         android:layout_width="match_parent"
+                        android:background="#DCDCDC"
                         android:layout_height="wrap_content">
 
                         <LinearLayout
@@ -158,6 +160,7 @@
                                 <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                     android:layout_width="350dp"
                                     android:layout_height="250dp"
+                                    android:background="#DCDCDC"
                                     app:src="@drawable/karate1"/>
 
                             </LinearLayout>
@@ -173,6 +176,7 @@
                                 <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                     android:layout_width="350dp"
                                     android:layout_height="250dp"
+                                    android:background="#DCDCDC"
                                     app:src="@drawable/karate2"/>
                             </LinearLayout>
                         </LinearLayout>

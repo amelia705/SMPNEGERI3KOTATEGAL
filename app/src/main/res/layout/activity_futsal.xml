@@ -20,8 +20,8 @@
             android:id="@+id/collapsing_tool">
 
             <ImageView
-                android:layout_width="416dp"
-                android:layout_height="218dp"
+                android:layout_width="423dp"
+                android:layout_height="match_parent"
                 android:layout_marginBottom="15dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/krwtn"
@@ -38,12 +38,14 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#F0FFF0"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <!--        Awal Isi-->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#F0FFF0"
             android:padding="15dp">
 
             <GridLayout
@@ -134,6 +136,7 @@
 
                     <HorizontalScrollView
                         android:layout_width="match_parent"
+                        android:background="#F0FFF0"
                         android:layout_height="wrap_content">
 
                         <LinearLayout
@@ -150,6 +153,7 @@
                                 <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                     android:layout_width="350dp"
                                     android:layout_height="250dp"
+                                    android:background="#F0FFF0"
                                     app:src="@drawable/karawitan1"/>
 
                             </LinearLayout>
@@ -162,9 +166,11 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:orientation="vertical">
+
                                 <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                     android:layout_width="350dp"
                                     android:layout_height="250dp"
+                                    android:background="#F0FFF0"
                                     app:src="@drawable/karawitan2"/>
                             </LinearLayout>
                         </LinearLayout>

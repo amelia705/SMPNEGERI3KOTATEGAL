@@ -44,6 +44,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#E0FFFF"
             android:padding="15dp">
 
             <GridLayout
@@ -120,6 +121,7 @@
                                     <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                         android:layout_width="350dp"
                                         android:layout_height="250dp"
+                                        android:background="#E0FFFF"
                                         app:src="@drawable/popda1"/>
 
                                 </LinearLayout>
@@ -135,6 +137,7 @@
                                     <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                         android:layout_width="350dp"
                                         android:layout_height="250dp"
+                                        android:background="#E0FFFF"
                                         app:src="@drawable/popda"/>
                                 </LinearLayout>
                             </LinearLayout>
@@ -185,6 +188,7 @@
                                 <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                     android:layout_width="350dp"
                                     android:layout_height="250dp"
+                                    android:background="#E0FFFF"
                                     app:src="@drawable/pencaksilat"/>
 
                             </LinearLayout>
