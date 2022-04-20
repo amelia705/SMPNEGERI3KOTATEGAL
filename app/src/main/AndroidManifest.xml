@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smpnegeri3kotategal">
+    package="com.profil.smpnegeri3kotategal">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,82 +12,82 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPNEGERI3KOTATEGAL">
         <activity
-            android:name=".FacebookActivity"
+            android:name="com.profil.smpnegeri3kotategal.FacebookActivity"
             android:exported="false" />
         <activity
-            android:name=".EdukasiActivity"
+            android:name="com.profil.smpnegeri3kotategal.EdukasiActivity"
             android:exported="false" />
         <activity
-            android:name=".RaportActivity"
+            android:name="com.profil.smpnegeri3kotategal.RaportActivity"
             android:exported="false" />
         <activity
-            android:name=".LombaPbbActivity"
+            android:name="com.profil.smpnegeri3kotategal.LombaPbbActivity"
             android:exported="false" />
         <activity
-            android:name=".StudyTourActivity"
+            android:name="com.profil.smpnegeri3kotategal.StudyTourActivity"
             android:exported="false" />
         <activity
-            android:name=".KarnavalActivity"
+            android:name="com.profil.smpnegeri3kotategal.KarnavalActivity"
             android:exported="false" />
         <activity
-            android:name=".DrumBandActivity"
+            android:name="com.profil.smpnegeri3kotategal.DrumBandActivity"
             android:exported="false" />
         <activity
-            android:name=".HariKartiniActivity"
+            android:name="com.profil.smpnegeri3kotategal.HariKartiniActivity"
             android:exported="false" />
         <activity
-            android:name=".KemahActivity"
+            android:name="com.profil.smpnegeri3kotategal.KemahActivity"
             android:exported="false" />
         <activity
-            android:name=".Buku9Activity"
+            android:name="com.profil.smpnegeri3kotategal.Buku9Activity"
             android:exported="false" />
         <activity
-            android:name=".Buku8Activity"
+            android:name="com.profil.smpnegeri3kotategal.Buku8Activity"
             android:exported="false" />
         <activity
-            android:name=".Buku7Activity"
+            android:name="com.profil.smpnegeri3kotategal.Buku7Activity"
             android:exported="false" />
         <activity
-            android:name=".BasketActivity"
+            android:name="com.profil.smpnegeri3kotategal.BasketActivity"
             android:exported="false" />
         <activity
-            android:name=".VollyActivity"
+            android:name="com.profil.smpnegeri3kotategal.VollyActivity"
             android:exported="false" />
         <activity
-            android:name=".PmrActivity"
+            android:name="com.profil.smpnegeri3kotategal.PmrActivity"
             android:exported="false" />
         <activity
-            android:name=".KarateActivity"
+            android:name="com.profil.smpnegeri3kotategal.KarateActivity"
             android:exported="false" />
         <activity
-            android:name=".FutsalActivity"
+            android:name="com.profil.smpnegeri3kotategal.FutsalActivity"
             android:exported="false" />
         <activity
-            android:name=".PramukaActivity"
+            android:name="com.profil.smpnegeri3kotategal.PramukaActivity"
             android:exported="false" />
         <activity
-            android:name=".GaleriActivity"
+            android:name="com.profil.smpnegeri3kotategal.GaleriActivity"
             android:exported="false" />
         <activity
-            android:name=".EkskulActivity"
+            android:name="com.profil.smpnegeri3kotategal.EkskulActivity"
             android:exported="false" />
         <activity
-            android:name=".PerpusActivity"
+            android:name="com.profil.smpnegeri3kotategal.PerpusActivity"
             android:exported="false" />
         <activity
-            android:name=".FasilitasActivity"
+            android:name="com.profil.smpnegeri3kotategal.FasilitasActivity"
             android:exported="false" />
         <activity
-            android:name=".GuruActivity"
+            android:name="com.profil.smpnegeri3kotategal.GuruActivity"
             android:exported="false" />
         <activity
-            android:name=".ProfilActivity"
+            android:name="com.profil.smpnegeri3kotategal.ProfilActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.profil.smpnegeri3kotategal.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name="com.profil.smpnegeri3kotategal.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
